@@ -1,0 +1,1 @@
+# shuma_hoge_platform_interface

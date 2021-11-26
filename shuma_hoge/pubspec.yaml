@@ -1,0 +1,27 @@
+name: shuma_hoge
+version: 1.0.0-SNAPSHOT
+description: Shuma's prototype flutter plugin
+homepage: https://gihub.com/S64
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+  flutter: ">=1.20.0"
+
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: jp.co.kiganix.flutterplugins.shumahoge
+        pluginClass: ShumaHogePlugin
+
+dependencies:
+  flutter:
+    sdk: flutter
+#  shuma_hoge_platform_interface: ^1.0.0-SNAPSHOT
+  shuma_hoge_platform_interface:
+    path: ../shuma_hoge_platform_interface
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^1.0.0

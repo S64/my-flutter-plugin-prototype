@@ -1,0 +1,9 @@
+/build
+/.project
+/.gradle
+/.settings
+
+/app/src/main/java/io/flutter/plugins
+/local.properties
+
+/.idea

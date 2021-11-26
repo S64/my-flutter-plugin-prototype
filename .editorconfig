@@ -1,0 +1,11 @@
+root = true
+
+[*.{yaml,yml,xml,java,dart}]
+indent_size = 2
+indent_style = space
+insert_final_newline = true
+
+[Rakefile]
+indent_size = 2
+indent_style = space
+insert_final_newline = true
