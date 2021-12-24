@@ -52,3 +52,7 @@ end
 task :openWebIde do
   sh %[studio shuma_hoge_web/ shuma_hoge_web/lib/shuma_hoge_web.dart]
 end
+
+task :openIosIde do
+  sh %[open shuma_hoge/example/ios/Runner.xcworkspace]
+end
