@@ -5,6 +5,8 @@ task :default => [
 
 task :welcome do
   sh %[$SHELL --login -c 'sdk env']
+  sh %[rbenv local]
+  sh %[bundle install]
   sh %[flutter doctor]
   ['shuma_hoge_platform_interface', 'shuma_hoge_web', 'shuma_hoge'].each do |proj|
     Dir.chdir(proj) do
