@@ -1,11 +1,11 @@
 root = true
 
-[*.{yaml,yml,xml,java,dart}]
+[*.{yaml,yml,xml,java,dart,podspec,rb,h,m}]
 indent_size = 2
 indent_style = space
 insert_final_newline = true
 
-[Rakefile]
+[{Rakefile,.editorconfig,LICENSE,.gitignore,.gitattributes}]
 indent_size = 2
 indent_style = space
 insert_final_newline = true
