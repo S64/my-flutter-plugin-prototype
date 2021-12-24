@@ -43,13 +43,6 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.15.0"
-  cupertino_icons:
-    dependency: "direct main"
-    description:
-      name: cupertino_icons
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "1.0.4"
   fake_async:
     dependency: transitive
     description:
@@ -75,7 +68,7 @@ packages:
     source: sdk
     version: "0.0.0"
   flutter_web_plugins:
-    dependency: transitive
+    dependency: "direct main"
     description: flutter
     source: sdk
     version: "0.0.0"
@@ -121,24 +114,10 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "2.0.2"
-  shuma_hoge:
+  shuma_hoge_platform_interface:
     dependency: "direct main"
     description:
-      path: ".."
-      relative: true
-    source: path
-    version: "1.0.0-SNAPSHOT"
-  shuma_hoge_platform_interface:
-    dependency: transitive
-    description:
-      path: "../../shuma_hoge_platform_interface"
-      relative: true
-    source: path
-    version: "1.0.0-SNAPSHOT"
-  shuma_hoge_web:
-    dependency: transitive
-    description:
-      path: "../../shuma_hoge_web"
+      path: "../shuma_hoge_platform_interface"
       relative: true
     source: path
     version: "1.0.0-SNAPSHOT"

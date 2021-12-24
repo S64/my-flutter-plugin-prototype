@@ -1,8 +1,8 @@
 publish_to: none # TODO
 
-name: shuma_hoge
+name: shuma_hoge_web
 version: 1.0.0-SNAPSHOT
-description: Shuma's prototype flutter plugin
+description: Shuma's prototype flutter plugin - Web implementation
 homepage: https://github.com/S64
 
 environment:
@@ -12,21 +12,18 @@ environment:
 flutter:
   plugin:
     platforms:
-      android:
-        package: jp.co.kiganix.flutterplugins.shumahoge
-        pluginClass: ShumaHogePlugin
       web:
-        default_package: shuma_hoge_web
+        pluginClass: ShumaHogePlugin
+        fileName: shuma_hoge_web.dart
 
 dependencies:
   flutter:
     sdk: flutter
+  flutter_web_plugins:
+    sdk: flutter
 #  shuma_hoge_platform_interface: 1.0.0-SNAPSHOT
   shuma_hoge_platform_interface:
     path: ../shuma_hoge_platform_interface
-#  shuma_hoge_web: 1.0.0-SNAPSHOT
-  shuma_hoge_web:
-    path: ../shuma_hoge_web
 
 dev_dependencies:
   flutter_test:

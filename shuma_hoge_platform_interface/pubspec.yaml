@@ -1,3 +1,5 @@
+publish_to: none # TODO
+
 name: shuma_hoge_platform_interface
 version: 1.0.0-SNAPSHOT
 description: Shuma's prototype flutter plugin - common interface
