@@ -427,7 +427,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.piyo.kokkonExample;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.co.kiganix.flutterplugins.ShumaHogeExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
