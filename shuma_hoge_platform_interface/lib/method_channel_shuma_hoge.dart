@@ -1,5 +1,4 @@
 import 'dart:async';
-import 'package:shuma_hoge_platform_interface/shuma_hoge_model.dart';
 import 'package:flutter/services.dart';
 import 'package:shuma_hoge_platform_interface/shuma_hoge_platform_interface.dart';
 
