@@ -5,7 +5,7 @@ indent_size = 2
 indent_style = space
 insert_final_newline = true
 
-[{Rakefile,.editorconfig,LICENSE,.gitignore,.gitattributes,Gemfile}]
+[{Rakefile,.editorconfig,LICENSE,.gitignore,.gitattributes,Gemfile,Podfile}]
 indent_size = 2
 indent_style = space
 insert_final_newline = true

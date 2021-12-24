@@ -30,6 +30,9 @@ task :test do
     Dir.chdir('example/android') do
       sh %[./gradlew --info :shuma_hoge:lint :shuma_hoge:test :app:lint :app:test]
     end
+    Dir.chdir('example/ios') do
+      sh %[bundle exec pod install]
+    end
     sh %[flutter analyze]
   end
 end
