@@ -1,6 +1,6 @@
 root = true
 
-[*.{yaml,yml,xml,java,dart,podspec,rb,h,m}]
+[*.{yaml,yml,xml,java,dart,podspec,rb,h,m,plist}]
 indent_size = 2
 indent_style = space
 insert_final_newline = true
